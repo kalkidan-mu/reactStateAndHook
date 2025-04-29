@@ -4,9 +4,9 @@ export default class CounterDisplayer extends Component {
   render() {
     const { count } = this.props;
     return (
-      <div className="container">
-        <h1>This is my counterDisplayer</h1>
-        <h1>count:{count}</h1>
+      <div >
+        {/* <h1>This is my counterDispla</h1> */}
+        <h1>All click count:{count}</h1>
       </div>
     );
   }

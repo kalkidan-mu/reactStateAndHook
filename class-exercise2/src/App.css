@@ -1,11 +1,27 @@
 button{
-  background-color: #a9ccc0;
+  background-color: #608679;
+  border-radius: 5px;
+  color: rgb(240, 248, 255);
+  border-style: groove;
   text-align: center;
+  margin-right: 10px;
+
 }
 .container{
-  background-color: #c4e0d6;
-  border: 5px black;
+  background-color: #cadad4;
+  /* border: 5px black; */
   border-radius: 15px;
-  border-color: black;
+  border-style: groove;
+  /* border-color: black; */
   text-align: center;
+  margin-bottom: 15px;
+}
+.increase{
+  background-color: rgb(92, 228, 92);
+}
+.decrease {
+  background-color: rgb(247, 193, 93);
+}
+.reset{
+  background-color: rgb(247, 100, 100);
 }

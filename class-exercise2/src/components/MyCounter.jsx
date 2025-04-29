@@ -15,9 +15,9 @@ class Mycounter extends Component {
   };
   render() {
     return (
-      <div>
-    
-        <button onClick={this.allClicksCounter}> click me</button>
+      <div className="container">
+        <h3>Question One and two</h3>
+        <button onClick={this.allClicksCounter}> click Here</button>
 
         <CounterDisplayer count={this.state.count} />
         <EvenCounterDisplayer count={this.state.count} />
