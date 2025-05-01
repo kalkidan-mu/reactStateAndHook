@@ -16,7 +16,7 @@ class Mycounter extends Component {
   render() {
     return (
       <div className="container">
-        <h3>Question One and two</h3>
+        <h3>Question 1 and 2</h3>
         <button onClick={this.allClicksCounter}> click Here</button>
 
         <CounterDisplayer count={this.state.count} />

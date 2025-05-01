@@ -15,7 +15,7 @@ setCount(count+1)
   }
   return (
     <div className="container">
-      <h3>Question three</h3>
+      <h3>Question 3</h3>
       <h1>count:{count}</h1>
       <div className='buttons'>
         <button onClick={handleIncrease} className='increase'>increasement</button>
